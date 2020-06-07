@@ -1,0 +1,37 @@
+home = os.getenv("HOME")
+
+dofile(home .. '/dotfiles/conky/configs/components/NetworkStatusInfo.lua')
+dofile(home .. '/dotfiles/conky/configs/components/NetworkTrafficInfo.lua')
+dofile(home .. '/dotfiles/conky/configs/components/PanelHeader.lua')
+dofile(home .. '/dotfiles/conky/configs/components/Separator.lua')
+dofile(home .. '/dotfiles/conky/configs/Utils.lua')
+
+conky.config = {
+	background = true,
+	update_interval = 1.0,
+	double_buffer = true,
+	own_window = true,
+	own_window_transparent = true,
+	own_window_class = 'Conky',
+	own_window_type = 'override',
+	use_xft = true,
+
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = false,
+	alignment = 'top_right',
+	gap_y = 10,
+	gap_x = -3,
+
+	override_utf8_locale = true,
+}
+
+Utils.mergeTable(conky.config, Colors.selectedColorPalette)
+
+conky.text = table.concat({
+	PanelHeader.renderHeader("NETWORK"),
+	NetworkStatusInfo,
+	NetworkTrafficInfo
+}, Separator.divider)
+
