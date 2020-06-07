@@ -23,21 +23,22 @@ but actively looking into solutions for scaling them on different resolutions.
 
 Available themes:
 
-	- Tron
-	- Westworld
+- Tron
+- Westworld
 
 
 ## Fonts
 
-	- Tron
-		- United Sans Regular Medium
-		- United Sans Regular Light
-	- Westworld
-		- Core Sans D 47 Condensed Medium
-		- DIN Condensed Regular
+- Tron
+	- United Sans Regular Medium
+	- United Sans Regular Light
+- Westworld
+	- Core Sans D 47 Condensed Medium
+	- DIN Condensed Regular
 
 
 ## Backgrounds
-	- [Tron](https://wallpapersden.com/tron-legacy-minimalist-wallpaper/3000x1875/)
-	- [Wesworld](https://dankanator.com/wp-content/uploads/2020/04/Westworld-Season-3-Episode-5-1-Breakdown-And-Review.jpg)
+
+- [Tron](https://wallpapersden.com/tron-legacy-minimalist-wallpaper/3000x1875/)
+- [Wesworld](https://dankanator.com/wp-content/uploads/2020/04/Westworld-Season-3-Episode-5-1-Breakdown-And-Review.jpg)
 
