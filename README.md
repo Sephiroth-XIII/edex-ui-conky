@@ -4,6 +4,13 @@ This is a clone of [eDEX-UI](https://github.com/GitSquared/edex-ui) made with
 conky.
 
 
+## Screenshots
+
+![Tron](https://github.com/Sephiroth-XIII/edex-ui-conky/raw/master/screenshots/Tron.png)
+
+![Westworld](https://github.com/Sephiroth-XIII/edex-ui-conky/raw/master/screenshots/Westworld.png)
+
+
 ## Themes
 
 Themes can be changed from `conky/configs/Theme.lua` file. I have tried to
@@ -15,6 +22,7 @@ welcomed. Also new themes are welcomed :)
 but actively looking into solutions for scaling them on different resolutions.
 
 Available themes:
+
 	- Tron
 	- Westworld
 
